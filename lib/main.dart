@@ -5,7 +5,17 @@ void main(){
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(child: Text("Hello world!"))
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors:[ const Color.fromARGB(255, 32, 175, 37),
+              const Color.fromARGB(255, 132, 23, 151)
+            ])
+          ),
+          child: Center(
+            child: Text("Hello world!")
+            )
+            )
         )
       )
     );
