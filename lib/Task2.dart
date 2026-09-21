@@ -33,7 +33,8 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(
     MaterialApp(
-      home: Text("Привет! Меня зовут Тимофей!.\nЯ студент группы ИСП-242.")
+      home: const Image(image: NetworkImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+      ) 
     )
   );
 }
