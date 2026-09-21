@@ -10,7 +10,10 @@ void main(){
             gradient: LinearGradient(
               colors:[ const Color.fromARGB(255, 32, 175, 37),
               const Color.fromARGB(255, 132, 23, 151)
-            ])
+            ],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            ),
           ),
           child: Center(
             child: Text("Hello world!")
